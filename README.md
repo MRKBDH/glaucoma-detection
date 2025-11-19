@@ -194,10 +194,10 @@ MAX_SEQ_LENGTH = 200
 
 ## 📚 Citation
 ```bibtex
-@misc{glaucoma_detection_2024,
+@misc{glaucoma_detection_2025,
   title={Glaucoma Detection from Clinical Notes using Deep Learning},
-  author={Your Name},
-  year={2024},
+  author={Mithun Ranjan Kar},
+  year={2025},
   institution={University of Louisiana at Lafayette},
   url={https://github.com/MRKBDH/glaucoma-detection}
 }
@@ -211,9 +211,9 @@ MAX_SEQ_LENGTH = 200
 
 ## 👤 Author
 
-**Student:** [Your Name]  
-**Email:** [your.email@louisiana.edu]  
-**Course:** CSCE 566 - Deep Learning, Fall 2024  
+**Student:** Mithun Ranjan Kar  
+**Email:** mithun-ranjan.kar1@louisiana.edu  
+**Course:** CSCE 566 - Deep Learning, Fall 2025  
 **Instructor:** Dr. Min Shi
 
 ## 📄 License
