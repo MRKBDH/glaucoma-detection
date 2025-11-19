@@ -1,0 +1,86 @@
+{
+  "Baseline (Original)": {
+    "config": {
+      "hidden_size": 128,
+      "num_layers": 2,
+      "dropout": 0.3,
+      "learning_rate": 0.001
+    },
+    "metrics": {
+      "val_auc": 0.8018567426970789,
+      "val_sensitivity": 0.7346938775510204,
+      "val_specificity": 0.7235294117647059,
+      "epoch": 3
+    }
+  },
+  "Lower LR": {
+    "config": {
+      "hidden_size": 128,
+      "num_layers": 2,
+      "dropout": 0.3,
+      "learning_rate": 0.0005
+    },
+    "metrics": {
+      "val_auc": 0.8021808723489395,
+      "val_sensitivity": 0.8142857142857143,
+      "val_specificity": 0.6078431372549019,
+      "epoch": 5
+    }
+  },
+  "Higher Dropout": {
+    "config": {
+      "hidden_size": 128,
+      "num_layers": 2,
+      "dropout": 0.4,
+      "learning_rate": 0.001
+    },
+    "metrics": {
+      "val_auc": 0.7913725490196077,
+      "val_sensitivity": 0.8020408163265306,
+      "val_specificity": 0.5980392156862745,
+      "epoch": 3
+    }
+  },
+  "Larger Hidden": {
+    "config": {
+      "hidden_size": 256,
+      "num_layers": 2,
+      "dropout": 0.3,
+      "learning_rate": 0.001
+    },
+    "metrics": {
+      "val_auc": 0.8312605042016807,
+      "val_sensitivity": 0.7959183673469388,
+      "val_specificity": 0.7333333333333333,
+      "epoch": 8
+    }
+  },
+  "More Layers": {
+    "config": {
+      "hidden_size": 128,
+      "num_layers": 3,
+      "dropout": 0.3,
+      "learning_rate": 0.001
+    },
+    "metrics": {
+      "val_auc": 0.8131932773109244,
+      "val_sensitivity": 0.7551020408163265,
+      "val_specificity": 0.711764705882353,
+      "epoch": 5
+    }
+  },
+  "Smaller Model": {
+    "config": {
+      "hidden_size": 64,
+      "num_layers": 2,
+      "dropout": 0.2,
+      "learning_rate": 0.001
+    },
+    "metrics": {
+      "val_auc": 0.796686674669868,
+      "val_sensitivity": 0.8020408163265306,
+      "val_specificity": 0.6294117647058823,
+      "epoch": 5
+    }
+  }
+}
