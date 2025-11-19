@@ -6,17 +6,22 @@ __pycache__/
 venv/
 env/
 *.egg-info/
+.Python
 
-# Data files (too large for GitHub)
+# Data files (DON'T commit to GitHub - too large)
+data/*.csv
 *.csv
 *.pkl
+
+# Model checkpoints (optional - they're large)
 *.pth
-data/*.csv
+best_*.pth
 
 # IDE
 .vscode/
 .idea/
 *.swp
+*.swo
 
 # OS
 .DS_Store
@@ -29,3 +34,7 @@ Thumbs.db
 # Logs
 *.log
 logs/
+
+# Temporary files
+*.tmp
+*~
